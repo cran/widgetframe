@@ -1,7 +1,7 @@
 Package: widgetframe
 Type: Package
 Title: 'Htmlwidgets' in Responsive 'iframes'
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre"))
     )
@@ -25,8 +25,8 @@ BugReports: https://github.com/bhaskarvk/widgetframe/issues
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-02-27 00:06:22 UTC; user001
+Packaged: 2017-05-11 19:31:55 UTC; bhaskar
 Author: Bhaskar Karambelkar [aut, cre]
 Maintainer: Bhaskar Karambelkar <bhaskarvk@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-02-27 08:15:44
+Date/Publication: 2017-05-11 20:24:47 UTC

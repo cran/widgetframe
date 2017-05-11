@@ -1,4 +1,7 @@
 ## ---- eval=FALSE---------------------------------------------------------
+#  install.packages('widgetframe')
+
+## ---- eval=FALSE---------------------------------------------------------
 #  if(!require(devtools)) {
 #    install.packages('devtools')
 #  }
