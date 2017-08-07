@@ -1,9 +1,12 @@
 Package: widgetframe
 Type: Package
 Title: 'Htmlwidgets' in Responsive 'iframes'
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
-    person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre"))
+    person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre")),
+    person("Yihui", "Xie", role = c("ctb")),
+    person("NPR Visual Team", role = c("ctb", "cph"), comment = "pym.js JavaScript library"),
+    person("Bjørn Klinggaard", role = c("ctb", "cph"), comment = "bLazy.js JavaScript library")
     )
 Description: Provides two functions 'frameableWidget()', and 'frameWidget()'.
   The 'frameableWidget()' is used to add extra code to a 'htmlwidget' which
@@ -20,13 +23,17 @@ LazyData: true
 Depends: R (>= 3.1.0), htmlwidgets,
 Imports: htmltools, purrr, magrittr, utils, tools
 RoxygenNote: 6.0.1
-URL: https://github.com/bhaskarvk/widgetframe
+URL: https://github.com/bhaskarvk/widgetframe,
+        https://bhaskarvk.github.io/widgetframe/
 BugReports: https://github.com/bhaskarvk/widgetframe/issues
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-05-11 19:31:55 UTC; bhaskar
-Author: Bhaskar Karambelkar [aut, cre]
+Packaged: 2017-08-07 01:16:38 UTC; bhaskar
+Author: Bhaskar Karambelkar [aut, cre],
+  Yihui Xie [ctb],
+  NPR Visual Team [ctb, cph] (pym.js JavaScript library),
+  Bjørn Klinggaard [ctb, cph] (bLazy.js JavaScript library)
 Maintainer: Bhaskar Karambelkar <bhaskarvk@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-05-11 20:24:47 UTC
+Date/Publication: 2017-08-07 05:54:31 UTC
