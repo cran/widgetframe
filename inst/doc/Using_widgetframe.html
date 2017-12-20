@@ -12,7 +12,7 @@
 
 <meta name="author" content="Bhaskar V. Karambelkar" />
 
-<meta name="date" content="2017-08-06" />
+<meta name="date" content="2017-12-19" />
 
 <title>Using widgetframe</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">Using widgetframe</h1>
 <h4 class="author"><em>Bhaskar V. Karambelkar</em></h4>
-<h4 class="date"><em>2017-08-06</em></h4>
+<h4 class="date"><em>2017-12-19</em></h4>
 
 
 
@@ -78,23 +78,24 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>This package provides two primary functions, <code>frameableWidget</code>, and <code>frameWidget</code>. <code>frameableWidget</code> is used to add extra code to a <code>htmlwidgets</code> instance, which allows it to be rendered inside a responsive iframe. <code>frameWidget</code> returns a new <code>htmlwidgets</code> instance, which wraps and displays content of another <code>htmlwidgets</code> instance (e.g. <code>leaflet</code>, <code>DT</code> etc.) inside a responsive iframe.</p>
 <div id="current-status" class="section level3">
 <h3>Current Status</h3>
-<p>For each of the document type below you can find fully working example code in the <a href="https://github.com/bhaskarvk/widgetframe/tree/master/inst/examples">Github Repo</a>.</p>
+<p>For each of the document type below you can find fully working example code in the <a href="https://github.com/bhaskarvk/widgetframe/tree/examples">Github Repo</a>.</p>
 <ul>
 <li>Works With
 <ul>
-<li><a href="http://rmarkdown.rstudio.com/flexdashboard/">Flex Dashboard</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/flexdashboard/dashboard.html">Demo</a>.</li>
-<li><a href="rmarkdown.rstudio.com">RMarkdown</a> + <a href="yihui.name/knitr/">knitr</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/rmarkdown/knitr_example.html">Demo</a>.</li>
-<li><a href="http://rmarkdown.rstudio.com/lesson-13.html">RMarkdown Website</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/rmarkdown-website/site/index.html">Demo</a>.</li>
-<li><a href="https://slides.yihui.name/xaringan/">Xaringan Presentations</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/xaringan/widgetframe.html#1">Demo</a>.<br />(May also work with other RMarkdown + knitr based presentations.)</li>
-<li><a href="https://bookdown.org/">Bookdown</a> gitbook: (Needs a Makefile for assembly). <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/bookdown/book/index.html">Demo</a>.</li>
-<li><a href="https://github.com/rstudio/blogdown/">blogdown</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/master/inst/examples/blogdown/public/index.html">Demo</a>.</li>
+<li><a href="http://rmarkdown.rstudio.com/flexdashboard/">Flex Dashboard</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/flexdashboard/dashboard.html">Demo</a>.</li>
+<li><a href="rmarkdown.rstudio.com">RMarkdown</a> + <a href="yihui.name/knitr/">knitr</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/rmarkdown/knitr_example.html">Demo</a>.</li>
+<li><a href="http://rmarkdown.rstudio.com/lesson-13.html">RMarkdown Website</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/rmarkdown-website/site/index.html">Demo</a>.</li>
+<li><a href="https://slides.yihui.name/xaringan/">Xaringan Presentations</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/xaringan/widgetframe.html#1">Demo</a>.<br />(May also work with other RMarkdown + knitr based presentations.)</li>
+<li><a href="https://bookdown.org/">Bookdown</a> gitbook: (Needs a Makefile for assembly). <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/bookdown/book/index.html">Demo</a>.</li>
+<li><a href="https://github.com/rstudio/blogdown/">blogdown</a>: <a href="https://rawgit.com/bhaskarvk/widgetframe/examples/blogdown/public/index.html">Demo</a>.</li>
 </ul></li>
 </ul>
 <p><br /></p>
 <ul>
 <li>Does not (yet) work with
 <ul>
-<li>Shiny: Probably never will.</li>
+<li>Shiny: See <a href="https://github.com/bhaskarvk/widgetframe/issues/11">Github Issue</a></li>
+<li>Crosstalk: See <a href="https://github.com/bhaskarvk/widgetframe/issues/3">Github Issue</a></li>
 </ul></li>
 </ul>
 </div>
@@ -134,7 +135,7 @@ ts &lt;- dygraph(nhtemp, main = “New Haven Temperatures”,
               height=250, width=‘95%’) 
 frameWidget(ts)
 ```</code></pre>
-<p>To know more about how <code>widgetframe</code> and <code>knitr</code>/<code>rmarkdown</code> work together, see the <a href="%60widgetframe%60%20and%20%60knitr%60">widgetframe_and_knitr.html</a> vignette.</p>
+<p>To know more about how <code>widgetframe</code> and <code>knitr</code>/<code>rmarkdown</code> work together, see the <a href="widgetframe_and_knitr.html"><code>widgetframe</code> and <code>knitr</code></a> vignette.</p>
 </div>
 </div>
 

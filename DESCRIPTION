@@ -1,7 +1,7 @@
 Package: widgetframe
 Type: Package
 Title: 'Htmlwidgets' in Responsive 'iframes'
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(
     person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut", "cre")),
     person("Yihui", "Xie", role = c("ctb")),
@@ -29,11 +29,11 @@ BugReports: https://github.com/bhaskarvk/widgetframe/issues
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-08-07 01:16:38 UTC; bhaskar
+Packaged: 2017-12-20 02:35:32 UTC; bhaskar
 Author: Bhaskar Karambelkar [aut, cre],
   Yihui Xie [ctb],
   NPR Visual Team [ctb, cph] (pym.js JavaScript library),
   Bjørn Klinggaard [ctb, cph] (bLazy.js JavaScript library)
 Maintainer: Bhaskar Karambelkar <bhaskarvk@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-08-07 05:54:31 UTC
+Date/Publication: 2017-12-20 04:28:55 UTC
